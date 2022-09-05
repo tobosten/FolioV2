@@ -67,6 +67,12 @@
 
 
 .project1 {
+  display: flex;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
   border: 1px solid white;
   position: relative;
   width: 300px;
@@ -74,6 +80,41 @@
   margin: 10px;
   border-radius: 10px;
 }
+
+.project1bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  height: 200px;
+  width: 200px;
+  background-color: #84789c;
+  border-radius: 200px;
+}
+
+.project1BgBorder {
+  position: absolute;
+  border-bottom: 2px solid black;
+  border-radius: 200px;
+  padding: 5px;
+  width: 205px;
+  height: 205px;
+
+  animation: p1BorderAnim 2s infinite linear;
+}
+
+@keyframes p1BorderAnim {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+
+  }
+}
+
 
 .project1:hover {
   animation: projectHoverAnimation 2s infinite ease-in-out;

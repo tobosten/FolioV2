@@ -3,6 +3,7 @@ import jpnImage from "./assets/jpnbgimg.jpg"
 import { Link } from 'react-router-dom'
 
 function Home() {
+
     return (
         <div className="App">
             <div
@@ -22,9 +23,13 @@ function Home() {
                     <div className='projectsTitle'>Projects</div>
                     <div className='projectsContainer'>
 
-                        <Link to="/actionreminder" className='project1' >
-                            
-                        </Link> 
+                        <Link to="/actionreminder" className="project1"
+                        >
+                            <div className='project1BgBorder'></div>
+                            <div className='project1bg'>
+                                Action<br />Reminder
+                            </div>
+                        </Link>
                         <div className='project'>
 
                         </div>
