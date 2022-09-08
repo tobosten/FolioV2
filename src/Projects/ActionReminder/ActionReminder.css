@@ -1,0 +1,66 @@
+.actionMainContainer {
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+
+.mainTitle {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    width: 90%;
+    align-self: center;
+    margin-top: 5%;
+}
+
+.mainARContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionPRContainer {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-self: center;
+    margin-top: 50px;
+    /* border: 1px solid white; */
+}
+
+.sectionPRText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.sectionPRTitle {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sectionPRDescription {
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.linkTextPR {
+    margin: 0 5px 0 5px; 
+}
+
+.sectionPRGif {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.gifStylePR {
+    height: 500px;
+}

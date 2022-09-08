@@ -22,7 +22,6 @@ function Home() {
                 <div className='mainProjectsContainer'>
                     <div className='projectsTitle'>Projects</div>
                     <div className='projectsContainer'>
-
                         <Link to="/actionreminder" className="project1"
                         >
                             <div className='project1BgBorder'></div>
