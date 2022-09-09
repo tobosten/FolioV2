@@ -104,6 +104,32 @@
   animation: p1BorderAnim 2s infinite linear;
 }
 
+.project2 {
+  display: flex;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.project2:hover {
+  animation: projectHoverAnimation 2s infinite ease-in-out;
+}
+
+.lofProjectGif {
+  height: 290px;
+  width: 290px;
+  border-radius: 10px;
+}
+
+
 @keyframes p1BorderAnim {
   0% {
     transform: rotate(0deg);
@@ -127,12 +153,12 @@
   }
 
   35% {
-    transform: rotate(2deg);
+    transform: rotate(1deg);
 
   }
 
   70% {
-    transform: rotate(-2deg);
+    transform: rotate(-1deg);
 
   }
 
@@ -140,3 +166,5 @@
     transform: rotate(0deg);
   }
 }
+
+

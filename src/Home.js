@@ -29,8 +29,9 @@ function Home() {
                                 Action<br />Reminder
                             </div>
                         </Link>
-                        <Link to="leagueofinfo" className='project'>
-
+                        <Link to="leagueofinfo" className='project2'>
+                            <img className='lofProjectGif'
+                                src={require("./assets/LeagueOfInfo/LeagueOfInfo.gif")} />
                         </Link>
                         <div className='project'>
 
