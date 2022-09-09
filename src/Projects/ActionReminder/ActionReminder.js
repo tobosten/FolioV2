@@ -3,7 +3,7 @@ import "./ActionReminder.css"
 
 
 function ActionReminder() {
-  // Dark: #282c34
+
   return (
     <div className='actionMainContainer'>
       <div className='mainTitle'>ActionReminder</div>
@@ -66,8 +66,6 @@ function ActionReminder() {
             <img src={require("../../assets/ActionReminder/remove-enable.gif")} className="gifStylePR" />
           </div>
         </div>
-
-
       </div>
     </div>
   )

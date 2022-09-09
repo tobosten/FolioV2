@@ -29,9 +29,9 @@ function Home() {
                                 Action<br />Reminder
                             </div>
                         </Link>
-                        <div className='project'>
+                        <Link to="leagueofinfo" className='project'>
 
-                        </div>
+                        </Link>
                         <div className='project'>
 
                         </div>

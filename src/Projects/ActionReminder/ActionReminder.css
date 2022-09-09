@@ -1,5 +1,5 @@
 .actionMainContainer {
-    background-color: #121212;
+    background-color: #282c34;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -53,6 +53,7 @@
 
 .linkTextPR {
     margin: 0 5px 0 5px; 
+    color: #84789c
 }
 
 .sectionPRGif {
