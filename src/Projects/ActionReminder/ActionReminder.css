@@ -7,7 +7,7 @@
 }
 
 
-.mainTitle {
+.mainARTitle {
     color: white;
     font-size: 30px;
     font-weight: 500;
@@ -15,6 +15,15 @@
     align-self: center;
     margin-top: 5%;
 }
+
+.mainARDescription {
+    width: 90%;
+    align-self: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
 
 .mainARContainer {
     display: flex;
@@ -52,7 +61,7 @@
 }
 
 .linkTextPR {
-    margin: 0 5px 0 5px; 
+    margin: 0 5px 0 5px;
     color: #84789c
 }
 

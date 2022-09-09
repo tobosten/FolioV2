@@ -4,7 +4,12 @@ import React from 'react'
 function LeagueOfInfo() {
     return (
         <div className='actionMainContainer'>
-            <div className='mainTitle'>League of Info</div>
+            <div className='mainARTitle'>League of Info</div>
+            <div className='mainARDescription'>
+                The apps area of use is mainly to search for another player on the servers EUW or EUNE in League of Legends.<br />
+                You are able to see information standard information about the user, e.g. level, rank and and recent matches.<br />
+                The app also has a champion array where you can search for a specific champion and see detailed information about them.
+            </div>
             <div className='mainARContainer'>
 
 

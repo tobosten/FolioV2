@@ -6,9 +6,13 @@ function ActionReminder() {
 
   return (
     <div className='actionMainContainer'>
-      <div className='mainTitle'>ActionReminder</div>
+      <div className='mainARTitle'>ActionReminder</div>
+      <div className='mainARDescription'>
+        In this app you are able to create a notifications for yourself at a specific date<br />
+        with a custom title and message. When creating notifications you are able to select if you want to fire it<br />
+        once or everyday at the selected time.
+      </div>
       <div className='mainARContainer'>
-
 
         <div className='sectionPRContainer'>
           <div className='sectionPRText'>
@@ -66,6 +70,7 @@ function ActionReminder() {
             <img src={require("../../assets/ActionReminder/remove-enable.gif")} className="gifStylePR" />
           </div>
         </div>
+        
       </div>
     </div>
   )
