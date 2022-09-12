@@ -1,25 +1,44 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import jpnImage from "./assets/jpnbgimg.jpg"
 import { Link } from 'react-router-dom'
 
+
 function Home() {
+
+    const [offsetY, setOffsetY] = useState(0);
+    const handleScroll = () => setOffsetY(window.pageYOffset)
+
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll)
+        return () => window.removeEventListener("scroll", handleScroll)
+    }, [])
 
     return (
         <div className="App">
             <div
                 className='backgroundImage'
                 style={{
-                    backgroundImage: `url(${jpnImage})`,
+                    backgroundImage: `url(${jpnImage})`, /* Scroll distortion bug */
                 }}
             >
                 <div className='backdropDiv'>
-                    <div className='backdropDivText'>Hello!<br />
-                        My name is Tobias
-                    </div>
+                    <div className='backdropDivTextName'>Tobias Österlin</div>
+                    <div className='backdropDivTextDesc'>Front-end developer</div>
                 </div>
 
+                <div className='aboutMeContainer'>
+                    <div className='aboutMeText'>Recently graduated Front-end developer that loves<br />
+                        creating both applications and websites.
+                    </div>
 
-                <div className='mainProjectsContainer'>
+                    <div className='aboutMeTitle'
+                        style={{ transform: `translateX(${offsetY * .9}px)` }}
+                    >About Me</div>
+                </div>
+
+                <div className='mainProjectsContainer'
+                style={{ transform: `translateY(${offsetY * -.5}px)` }}
+                >
                     <div className='projectsTitle'>Projects</div>
                     <div className='projectsContainer'>
                         <Link to="/actionreminder" className="project1"
@@ -33,15 +52,6 @@ function Home() {
                             <img className='lofProjectGif'
                                 src={require("./assets/LeagueOfInfo/LeagueOfInfo.gif")} />
                         </Link>
-                        <div className='project'>
-
-                        </div>
-                        <div className='project'>
-
-                        </div>
-                        <div className='project'>
-
-                        </div>
                     </div>
                 </div>
             </div>

@@ -1,27 +1,40 @@
 .actionMainContainer {
-    background-color: #282c34;
     display: flex;
     flex-direction: column;
     width: 100%;
     padding-bottom: 50px;
+    background-color: #282c34;
+    position: relative;
+   
 }
 
+.backgroundTextARTitle {
+    position: absolute;
+    font-size: 130px;
+    color: #84789c;
+    margin-top: 150px;
+    z-index: 1;
+    margin-left: 10%;
+}
 
-.mainARTitle {
-    color: white;
-    font-size: 30px;
-    font-weight: 500;
-    width: 90%;
+.dividerARDiv {
+    height: 1px;
+    background-color: gray;
+    width: 80%;
+    max-width: 1900px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     align-self: center;
-    margin-top: 5%;
 }
 
 .mainARDescription {
-    width: 90%;
+    width: 80%;
+    max-width: 1900px;
     align-self: center;
     font-size: 20px;
     color: white;
-    margin-top: 20px;
+    margin-top: 400px;
+    z-index: 10;
 }
 
 
@@ -30,15 +43,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
+    z-index: 10;
 }
 
 .sectionPRContainer {
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 80%;
+    max-width: 1900px;
     align-self: center;
-    margin-top: 50px;
-    /* border: 1px solid white; */
+    z-index: 10;
 }
 
 .sectionPRText {
@@ -46,23 +61,27 @@
     flex-direction: column;
     justify-content: center;
     flex: 1;
+    z-index: 10;
 }
 
 .sectionPRTitle {
     color: white;
     font-size: 20px;
     font-weight: 500;
+    z-index: 10;
 }
 
 .sectionPRDescription {
     color: white;
     font-size: 16px;
     margin-top: 20px;
+    z-index: 10;
 }
 
 .linkTextPR {
     margin: 0 5px 0 5px;
-    color: #84789c
+    color: #84789c;
+    z-index: 10;
 }
 
 .sectionPRGif {

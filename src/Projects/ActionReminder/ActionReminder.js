@@ -1,12 +1,30 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "./ActionReminder.css"
 
 
 function ActionReminder() {
 
+  const [offsetY, setOffsetY] = useState(0)
+  const handleScroll = () => setOffsetY(window.pageYOffset)
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
+  })
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+
+
   return (
     <div className='actionMainContainer'>
-      <div className='mainARTitle'>ActionReminder</div>
+      <div className='backgroundTextARTitle'
+        style={{
+          transform: `translateY(${offsetY * 0.8}px)`,
+        }}
+      >Action Reminder</div>
       <div className='mainARDescription'>
         In this app you are able to create a notifications for yourself at a specific date<br />
         with a custom title and message. When creating notifications you are able to select if you want to fire it<br />
@@ -33,6 +51,8 @@ function ActionReminder() {
           </div>
         </div>
 
+        <div className='dividerARDiv'></div>
+
         <div className='sectionPRContainer'>
           <div className='sectionPRText'>
             <div className='sectionPRTitle'>Create reminder</div>
@@ -57,6 +77,8 @@ function ActionReminder() {
           </div>
         </div>
 
+        <div className='dividerARDiv'></div>
+
         <div className='sectionPRContainer'>
           <div className='sectionPRText'>
             <div className='sectionPRTitle'>Enable/Disable and remove</div>
@@ -70,8 +92,10 @@ function ActionReminder() {
             <img src={require("../../assets/ActionReminder/remove-enable.gif")} className="gifStylePR" />
           </div>
         </div>
-        
+
       </div>
+
+
     </div>
   )
 }

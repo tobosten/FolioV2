@@ -1,10 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 /* Uses ActionReminder.css */
 
 function LeagueOfInfo() {
+
+    const [offsetY, setOffsetY] = useState(0)
+    const handleScroll = () => setOffsetY(window.pageYOffset)
+
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll)
+        return () => window.removeEventListener("scroll", handleScroll)
+    })
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <div className='actionMainContainer'>
-            <div className='mainARTitle'>League of Info</div>
+            <div className='backgroundTextARTitle'
+                style={{
+                    transform: `translateY(${offsetY * .8}px)`,
+                }}>League of Info</div>
             <div className='mainARDescription'>
                 The apps area of use is mainly to search for another player on the servers EUW or EUNE in League of Legends.<br />
                 You are able to see information standard information about the user, e.g. level, rank and and recent matches.<br />
@@ -32,6 +48,8 @@ function LeagueOfInfo() {
                     </div>
                 </div>
 
+                <div className='dividerARDiv'></div>
+
                 <div className='sectionPRContainer'>
                     <div className='sectionPRText'>
                         <div className='sectionPRTitle'>User information</div>
@@ -49,6 +67,8 @@ function LeagueOfInfo() {
                             src={require("../../assets/LeagueOfInfo/userDetails.gif")} />
                     </div>
                 </div>
+
+                <div className='dividerARDiv'></div>
 
                 <div className='sectionPRContainer'>
                     <div className='sectionPRText'>
@@ -68,6 +88,7 @@ function LeagueOfInfo() {
                     </div>
                 </div>
 
+                <div className='dividerARDiv'></div>
 
                 <div className='sectionPRContainer'>
                     <div className='sectionPRText'>
@@ -89,6 +110,8 @@ function LeagueOfInfo() {
                     </div>
                 </div>
 
+                <div className='dividerARDiv'></div>
+
                 <div className='sectionPRContainer'>
                     <div className='sectionPRText'>
                         <div className='sectionPRTitle'>Match history</div>
@@ -101,7 +124,7 @@ function LeagueOfInfo() {
                                 <li>Summoner spells and runes</li>
                                 <li>Gamemode and game duration</li>
                                 <li>Kills/Deaths/Assists and creep score (CS)</li>
-                                <li>Colored line: Red = Loss, Green = Win</li>
+                                <li>Red line = Loss, Green = Win</li>
                             </ul>
                         </div>
                     </div>
