@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/PortfolioV2/static/css/main.2ad4cbeb.css",
+    "main.js": "/PortfolioV2/static/js/main.e4a7aac0.js",
+    "static/js/787.f07c9343.chunk.js": "/PortfolioV2/static/js/787.f07c9343.chunk.js",
+    "static/media/matchHistory.gif": "/PortfolioV2/static/media/matchHistory.72249aa19b3b7b9c6981.gif",
+    "static/media/champSearch.gif": "/PortfolioV2/static/media/champSearch.59fbb0bcf630af096710.gif",
+    "static/media/champDetails.gif": "/PortfolioV2/static/media/champDetails.19dcb5e2b3d74c3a1456.gif",
+    "static/media/search.gif": "/PortfolioV2/static/media/search.3ec98ab673ad86dace6f.gif",
+    "static/media/create.gif": "/PortfolioV2/static/media/create.ece44153697d1a50c72a.gif",
+    "static/media/LeagueOfInfo.gif": "/PortfolioV2/static/media/LeagueOfInfo.988565fdf0e9e67aef4d.gif",
+    "static/media/userDetails.gif": "/PortfolioV2/static/media/userDetails.b1672947c5bc42d3f6eb.gif",
+    "static/media/remove-enable.gif": "/PortfolioV2/static/media/remove-enable.c50f4dfc8aa3fb2940f8.gif",
+    "static/media/startscreen.gif": "/PortfolioV2/static/media/startscreen.0cd1645742c6060a59df.gif",
+    "static/media/jpnbgimg.jpg": "/PortfolioV2/static/media/jpnbgimg.3444b894b5f28592b23d.jpg",
+    "static/media/Smooch-Regular.ttf": "/PortfolioV2/static/media/Smooch-Regular.271aba559f449deaefdf.ttf",
+    "index.html": "/PortfolioV2/index.html",
+    "main.2ad4cbeb.css.map": "/PortfolioV2/static/css/main.2ad4cbeb.css.map",
+    "main.e4a7aac0.js.map": "/PortfolioV2/static/js/main.e4a7aac0.js.map",
+    "787.f07c9343.chunk.js.map": "/PortfolioV2/static/js/787.f07c9343.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ad4cbeb.css",
+    "static/js/main.e4a7aac0.js"
+  ]
+}
