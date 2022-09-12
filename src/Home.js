@@ -23,16 +23,18 @@ function Home() {
             >
                 <div className='backdropDiv'>
                     <div className='backdropDivTextName'>Tobias Österlin</div>
-                    <div className='backdropDivTextDesc'>Front-end developer</div>
+                    <div className='backdropDivTextDesc'>Application developer</div>
                 </div>
 
-                <div className='aboutMeContainer'>
-                    <div className='aboutMeText'>Recently graduated Front-end developer that loves<br />
-                        creating both applications and websites.
+                <div className='aboutMeSectionContainer'>
+                    <div className='aboutMeSectionText'>Recently graduated Application developer that loves<br />
+                        creating both applications and websites. I have most<br />
+                        experience working with React.js and React Native.<br />
+                        <Link className='aboutMeSectionMoreText' to="/aboutme">More</Link>
                     </div>
 
-                    <div className='aboutMeTitle noSelect'
-                        style={{ transform: `translateX(${offsetY * .9}px)` }}
+                    <div className='aboutMeSectionTitle noSelect'
+                        style={{ transform: `translateX(${offsetY * .5}px)` }}
                     >About Me</div>
                 </div>
 

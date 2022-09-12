@@ -49,15 +49,15 @@
 
 }
 
-.aboutMeContainer {
+.aboutMeSectionContainer {
   display: flex;
   align-items: center;
   /* border: 1px solid white; */
-  height: 600px;
+  height: 1000px;
   background-color: #282c34;
 }
 
-.aboutMeTitle {
+.aboutMeSectionTitle {
   color: #84789c;
   position: absolute;
   font-size: 64px;
@@ -67,12 +67,17 @@
 
 }
 
-.aboutMeText {
+.aboutMeSectionText {
   font-size: 26px;
   color: white;
   margin-left: 50%;
   z-index: 2;
   text-align: start;
+}
+
+.aboutMeSectionMoreText {
+  font-size: 18px;
+  color: #84789c;
 }
 
 .mainProjectsContainer {
@@ -82,7 +87,7 @@
   align-items: center;
   background-color: #282c34;
   /* border: 1px solid red; */
-  padding-top: 500px;
+  padding-top: 600px;
   padding-bottom: 300px;
 
   padding-left: 20vw;
@@ -91,9 +96,9 @@
 
 .projectsTitle {
   position: relative;
-  color: white;
-  font-size: 26px;
-  margin-bottom: 40px;
+  color: #84789c;
+  font-size: 36px;
+  margin-bottom: 60px;
 }
 
 .projectsContainer {

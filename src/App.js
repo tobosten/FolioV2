@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './Home';
 import ActionReminder from './Projects/ActionReminder/ActionReminder';
 import LeagueOfInfo from './Projects/LeagueOfInfo/LeagueOfInfo';
+import AboutMe from './AboutMe/AboutMe';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/actionreminder" element={<ActionReminder />} />
         <Route exact path="/leagueofinfo" element={<LeagueOfInfo />} />
+        <Route exact path="/aboutme" element={<AboutMe />} />
       </Routes>
     </Router>
 
