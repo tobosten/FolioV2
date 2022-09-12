@@ -20,7 +20,7 @@ function ActionReminder() {
 
   return (
     <div className='actionMainContainer'>
-      <div className='backgroundTextARTitle'
+      <div className='backgroundTextARTitle noSelect'
         style={{
           transform: `translateY(${offsetY * 0.8}px)`,
         }}

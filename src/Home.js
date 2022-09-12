@@ -31,13 +31,13 @@ function Home() {
                         creating both applications and websites.
                     </div>
 
-                    <div className='aboutMeTitle'
+                    <div className='aboutMeTitle noSelect'
                         style={{ transform: `translateX(${offsetY * .9}px)` }}
                     >About Me</div>
                 </div>
 
                 <div className='mainProjectsContainer'
-                style={{ transform: `translateY(${offsetY * -.5}px)` }}
+                    style={{ transform: `translateY(${offsetY * -.5}px)` }}
                 >
                     <div className='projectsTitle'>Projects</div>
                     <div className='projectsContainer'>

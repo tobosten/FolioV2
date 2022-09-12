@@ -17,7 +17,7 @@ function LeagueOfInfo() {
 
     return (
         <div className='actionMainContainer'>
-            <div className='backgroundTextARTitle'
+            <div className='backgroundTextARTitle noSelect'
                 style={{
                     transform: `translateY(${offsetY * .8}px)`,
                 }}>League of Info</div>
