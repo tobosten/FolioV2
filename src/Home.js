@@ -34,15 +34,25 @@ function Home() {
                     </div>
 
                     <div className='aboutMeSectionTitle noSelect'
-                        style={{ transform: `translateX(${offsetY * .5}px)` }}
+                        style={{ 
+                            transform: `translateX(${offsetY * .5}px)`
+                         }}
                     >About Me</div>
                 </div>
 
                 <div className='mainProjectsContainer'
-                    style={{ transform: `translateY(${offsetY * -.5}px)` }}
+                    style={{ 
+                        transform: `translateY(${offsetY * -.5}px)`
+                     }}
                 >
-                    <div className='projectsTitle'>Projects</div>
-                    <div className='projectsContainer'>
+                    <div className='projectsTitle'
+                        style={{
+                            transform: `translateX(${offsetY * -0.25}px)`,
+                        }}
+                    >Projects</div>
+                    <div className='projectsContainer'
+                        style={{ }}
+                    >
                         <Link to="/actionreminder" className="project1"
                         >
                             <div className='project1BgBorder'></div>

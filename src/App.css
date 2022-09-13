@@ -95,10 +95,11 @@
 }
 
 .projectsTitle {
-  position: relative;
   color: #84789c;
   font-size: 36px;
   margin-bottom: 60px;
+  position: relative;
+  z-index: 20;
 }
 
 .projectsContainer {
