@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FolioV2/static/css/main.5e5d8b66.css",
-    "main.js": "/FolioV2/static/js/main.d06ea508.js",
+    "main.js": "/FolioV2/static/js/main.5988fdaf.js",
     "static/js/787.f07c9343.chunk.js": "/FolioV2/static/js/787.f07c9343.chunk.js",
     "static/media/matchHistory.gif": "/FolioV2/static/media/matchHistory.72249aa19b3b7b9c6981.gif",
     "static/media/champSearch.gif": "/FolioV2/static/media/champSearch.59fbb0bcf630af096710.gif",
@@ -16,11 +16,11 @@
     "static/media/Smooch-Regular.ttf": "/FolioV2/static/media/Smooch-Regular.271aba559f449deaefdf.ttf",
     "index.html": "/FolioV2/index.html",
     "main.5e5d8b66.css.map": "/FolioV2/static/css/main.5e5d8b66.css.map",
-    "main.d06ea508.js.map": "/FolioV2/static/js/main.d06ea508.js.map",
+    "main.5988fdaf.js.map": "/FolioV2/static/js/main.5988fdaf.js.map",
     "787.f07c9343.chunk.js.map": "/FolioV2/static/js/787.f07c9343.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e5d8b66.css",
-    "static/js/main.d06ea508.js"
+    "static/js/main.5988fdaf.js"
   ]
 }
