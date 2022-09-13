@@ -28,8 +28,7 @@ function Home() {
 
                 <div className='aboutMeSectionContainer'>
                     <div className='aboutMeSectionText'>Recently graduated Application developer that loves<br />
-                        creating both applications and websites. I have most<br />
-                        experience working with React.js and React Native.<br />
+                        creating both applications and websites.<br />
                         <Link className='aboutMeSectionMoreText' to="/aboutme">More</Link>
                     </div>
 
@@ -46,14 +45,14 @@ function Home() {
                     >
                         <img
                             src={require("./assets/Me.jpg")}
-                            className="meImg"
+                            className="meImg noSelect"
                         />
                     </div>
 
                 </div>
 
                 <div className='mainProjectsContainer'>
-                    <div className='projectsTitle'
+                    <div className='projectsTitle noSelect'
                         style={{
                             transform: `translateX(${offsetY * -0.25}px)`,
                         }}
@@ -76,19 +75,19 @@ function Home() {
 
                     </div>
 
-                    <img className='homeReactLogo'
+                    <img className='homeReactLogo noSelect'
                         src={require("./assets/Logos/reactLogo2.png")}
                         style={{
                             transform: `translateY(${offsetY * -0.15}px)`,
                         }}
                     />
-                    <img className='homeJSLogo'
+                    <img className='homeJSLogo noSelect'
                         src={require("./assets/Logos/jsLogo.png")}
                         style={{
                             transform: `translateY(${offsetY * -0.10}px)`,
                         }}
                     />
-                    <img className='homeCSSLogo'
+                    <img className='homeCSSLogo noSelect'
                         src={require("./assets/Logos/cssLogo.png")}
                         style={{
                             transform: `translateY(${offsetY * -0.05}px)`,

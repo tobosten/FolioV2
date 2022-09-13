@@ -19,7 +19,7 @@
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 80%;
     margin-top: 300px;
 }

@@ -30,6 +30,15 @@ function ActionReminder() {
         with a custom title and message. When creating notifications you are able to select if you want to fire it<br />
         once or everyday at the selected time.
       </div>
+
+      <a className='githubImgARContainer'
+        href='https://github.com/tobosten/FolioV2'
+        target={"_blank"}
+      >
+        <img
+          src={require("../../assets/Logos/githubLogo.png")}
+        />
+      </a>
       <div className='mainARContainer'>
 
         <div className='sectionPRContainer'>

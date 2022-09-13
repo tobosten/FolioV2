@@ -5,7 +5,7 @@
     padding-bottom: 50px;
     background-color: #282c34;
     position: relative;
-   
+
 }
 
 .backgroundTextARTitle {
@@ -35,6 +35,25 @@
     color: white;
     margin-top: 400px;
     z-index: 10;
+}
+
+.githubImgARContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 10%;
+    z-index: 6;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 0px 0px 3px white;
+}
+
+.githubARImg {
+    height: 40px;
+    width: 40px;
 }
 
 

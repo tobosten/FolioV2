@@ -22,10 +22,22 @@ function LeagueOfInfo() {
                     transform: `translateY(${offsetY * .8}px)`,
                 }}>League of Info</div>
             <div className='mainARDescription'>
-                The apps area of use is mainly to search for another player on the servers EUW or EUNE in League of Legends.<br />
+                The apps area of use is mainly to search for yourself or other player on the servers EUW or EUNE in League of Legends.<br />
                 You are able to see information standard information about the user, e.g. level, rank and and recent matches.<br />
-                The app also has a champion array where you can search for a specific champion and see detailed information about them.
+                The app also has a champion array where you can search for a specific champion and see detailed information about them.<br />
+                Both user info and champion information is fetched from an API.
             </div>
+
+            <a className='githubImgARContainer'
+                href='https://github.com/tobosten/LeagueOfInfo'
+                target={"_blank"}
+            >
+                <img
+                    src={require("../../assets/Logos/githubLogo.png")}
+                    className="githubARImg"
+                />
+            </a>
+
             <div className='mainARContainer'>
 
 
