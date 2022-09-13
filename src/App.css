@@ -33,7 +33,7 @@
   flex-direction: column;
   width: 100%;
   height: 100vh;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(7px);
   box-shadow: 0px 5px 15px #1e2024;
 }
 
@@ -80,18 +80,42 @@
   color: #84789c;
 }
 
+.meImgContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80vw;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: white;
+  height: 205px;
+  width: 205px;
+  z-index: 1;
+
+  animation: borderOpacityPulse 2s infinite linear;
+}
+
+.meImg {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+
+}
+
 .mainProjectsContainer {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #282c34;
   /* border: 1px solid red; */
-  padding-top: 600px;
   padding-bottom: 300px;
 
   padding-left: 20vw;
   padding-right: 20vw;
+  z-index: 1000;
 }
 
 .projectsTitle {
@@ -210,7 +234,6 @@
 
   35% {
     transform: rotate(1deg);
-
   }
 
   70% {
@@ -220,5 +243,44 @@
 
   100% {
     transform: rotate(0deg);
+
   }
+}
+
+@keyframes borderOpacityPulse {
+  0% {
+    box-shadow: 0px 0px 0px white;
+  }
+
+  50% {
+    box-shadow: 0px 0px 10px white;
+  }
+
+  100% {
+    box-shadow: 0px 0px 0px white;
+  }
+}
+
+
+.homeReactLogo {
+  position: absolute;
+  height: 100px;
+  width: 130px;
+  margin-right: 80vw;
+}
+
+.homeJSLogo {
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  margin-right: 80vw;
+  margin-top: 100px;
+}
+
+.homeCSSLogo {
+  position: absolute;
+  height: 100px;
+  width: 90px;
+  margin-right: 80vw;
+  margin-top: 200px;
 }

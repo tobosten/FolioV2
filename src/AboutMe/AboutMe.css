@@ -34,3 +34,18 @@
     color: white;
     margin-top: 20px
 }
+
+.cvDownloadContainer {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid white; */
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #33353a;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgb(29, 29, 29);
+    padding: 10px 10px 10px 20px;
+    text-decoration: none;
+}

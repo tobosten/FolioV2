@@ -34,24 +34,32 @@ function Home() {
                     </div>
 
                     <div className='aboutMeSectionTitle noSelect'
-                        style={{ 
+                        style={{
                             transform: `translateX(${offsetY * .5}px)`
-                         }}
+                        }}
                     >About Me</div>
+                    <div
+                        className="meImgContainer"
+                        style={{
+                            transform: `translateY(${offsetY * -0.2}px)`
+                        }}
+                    >
+                        <img
+                            src={require("./assets/Me.jpg")}
+                            className="meImg"
+                        />
+                    </div>
+
                 </div>
 
-                <div className='mainProjectsContainer'
-                    style={{ 
-                        transform: `translateY(${offsetY * -.5}px)`
-                     }}
-                >
+                <div className='mainProjectsContainer'>
                     <div className='projectsTitle'
                         style={{
                             transform: `translateX(${offsetY * -0.25}px)`,
                         }}
                     >Projects</div>
                     <div className='projectsContainer'
-                        style={{ }}
+                        style={{}}
                     >
                         <Link to="/actionreminder" className="project1"
                         >
@@ -64,7 +72,28 @@ function Home() {
                             <img className='lofProjectGif'
                                 src={require("./assets/LeagueOfInfo/LeagueOfInfo.gif")} />
                         </Link>
+
+
                     </div>
+
+                    <img className='homeReactLogo'
+                        src={require("./assets/Logos/reactLogo2.png")}
+                        style={{
+                            transform: `translateY(${offsetY * -0.15}px)`,
+                        }}
+                    />
+                    <img className='homeJSLogo'
+                        src={require("./assets/Logos/jsLogo.png")}
+                        style={{
+                            transform: `translateY(${offsetY * -0.10}px)`,
+                        }}
+                    />
+                    <img className='homeCSSLogo'
+                        src={require("./assets/Logos/cssLogo.png")}
+                        style={{
+                            transform: `translateY(${offsetY * -0.05}px)`,
+                        }}
+                    />
                 </div>
             </div>
         </div>
