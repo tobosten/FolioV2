@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FolioV2/static/css/main.2d14510e.css",
-    "main.js": "/FolioV2/static/js/main.835643ce.js",
+    "main.css": "/FolioV2/static/css/main.458b0cb4.css",
+    "main.js": "/FolioV2/static/js/main.39e28042.js",
     "static/js/787.f07c9343.chunk.js": "/FolioV2/static/js/787.f07c9343.chunk.js",
     "static/media/matchHistory.gif": "/FolioV2/static/media/matchHistory.72249aa19b3b7b9c6981.gif",
     "static/media/champSearch.gif": "/FolioV2/static/media/champSearch.59fbb0bcf630af096710.gif",
@@ -19,12 +19,12 @@
     "static/media/jsLogo.png": "/FolioV2/static/media/jsLogo.37dd0697ee49e72f6ea0.png",
     "static/media/cssLogo.png": "/FolioV2/static/media/cssLogo.4e67641bb68b658d9b2b.png",
     "index.html": "/FolioV2/index.html",
-    "main.2d14510e.css.map": "/FolioV2/static/css/main.2d14510e.css.map",
-    "main.835643ce.js.map": "/FolioV2/static/js/main.835643ce.js.map",
+    "main.458b0cb4.css.map": "/FolioV2/static/css/main.458b0cb4.css.map",
+    "main.39e28042.js.map": "/FolioV2/static/js/main.39e28042.js.map",
     "787.f07c9343.chunk.js.map": "/FolioV2/static/js/787.f07c9343.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d14510e.css",
-    "static/js/main.835643ce.js"
+    "static/css/main.458b0cb4.css",
+    "static/js/main.39e28042.js"
   ]
 }
